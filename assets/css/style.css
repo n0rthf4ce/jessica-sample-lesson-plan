@@ -1,10 +1,54 @@
-.img-fluid{
-    max-width: 100%;
-    height: auto;
+body{
+    font-family: 'Mina', sans-serif;
+    background-color: #d5d5d5;
 }
+.container{
+    color: white;
+}
+.navbar{
+    background-color: #6d7993;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #ffdfd3;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ffdfd3;
+}
+.navbar-light .navbar-brand{
+    color: white;
+}
+h1{
+    margin-top: 2%; 
+}/*
+.img-display{
+    width: 100%;
+    height: auto;
+}*/
 .link-thumbnail{
     max-width: 50%;
 }
 .row{
     margin-bottom: 37px;
+}
+.quote{
+    max-width: 80%;
+    text-align: justify;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+.caption{
+    font-size: .75rem;
+}
+.icon{
+    max-width: 80%;
+    height: auto;
+}
+.icon:hover{
+    cursor: pointer;
+}
+.gallery-header{
+    margin-top: 10%;
 }
